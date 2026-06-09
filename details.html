@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon Details</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="back-btn">&#8592; Back to Pokédex</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="loading" class="loading">
+      <div class="pokeball-spinner"></div>
+      <p>Loading Pokémon…</p>
+    </div>
+    <div id="pokemon-details" hidden></div>
+    <p id="error-msg" class="error-msg" hidden>Failed to load Pokémon details. Please check your connection and refresh.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
